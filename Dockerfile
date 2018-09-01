@@ -363,7 +363,7 @@ RUN \
         cp -r ${PREFIX}/share/ffmpeg /usr/local/share/ && \
         LD_LIBRARY_PATH=/usr/local/lib ffmpeg -buildconf
 
-FROM        base AS release
+
 MAINTAINER  Julien Rottenberg <julien@rottenberg.info>
 
 # CMD         ["--help"]
